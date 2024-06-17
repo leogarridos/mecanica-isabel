@@ -1,0 +1,55 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.banner {
+  background: url("banner-oficina.png") no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 100px 20px;
+}
+
+.servicos .card {
+  margin-bottom: 30px;
+}
+
+.testemunhos blockquote {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container h3 {
+  font-size: 1.5rem;
+}
+
+.container p {
+  font-size: 1rem;
+}
+
+main {
+  flex: 1;
+}
