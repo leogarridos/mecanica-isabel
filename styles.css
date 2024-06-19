@@ -3,30 +3,43 @@ html {
   height: 100%;
   margin: 0;
 }
+
 body {
-  font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
+}
+
+header {
+  background-color: #7c1010;
+}
+
+nav.navbar {
+  justify-content: center;
+}
+
+nav.navbar .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 20px;
 }
 
 main {
   flex: 1;
 }
 
-.header {
-  padding: 20px 0;
-}
-
 .banner {
   background: url("banner-oficina.png") no-repeat center center;
-  background-size: cover;
-  color: white;
-  padding: 100px 20px;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 0;
+  padding-top: calc(
+    500 / 1920 * 100%
+  ); /* Altura proporcional à largura da imagem */
 }
 
-.servicos .card {
+/* .servicos .card {
   margin-bottom: 30px;
-}
+} */
 
 .testemunhos blockquote {
   background: #fff;
@@ -48,8 +61,4 @@ main {
 
 .container p {
   font-size: 1rem;
-}
-
-main {
-  flex: 1;
 }
